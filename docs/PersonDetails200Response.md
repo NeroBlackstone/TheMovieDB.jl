@@ -1,0 +1,25 @@
+# PersonDetails200Response
+
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**adult** | **Bool** |  | [optional] [default to true]
+**also_known_as** | **Vector{String}** |  | [optional] [default to nothing]
+**biography** | **String** |  | [optional] [default to nothing]
+**birthday** | **String** |  | [optional] [default to nothing]
+**deathday** | **Any** |  | [optional] [default to nothing]
+**gender** | **Int64** |  | [optional] [default to 0]
+**homepage** | **Any** |  | [optional] [default to nothing]
+**id** | **Int64** |  | [optional] [default to 0]
+**imdb_id** | **String** |  | [optional] [default to nothing]
+**known_for_department** | **String** |  | [optional] [default to nothing]
+**name** | **String** |  | [optional] [default to nothing]
+**place_of_birth** | **String** |  | [optional] [default to nothing]
+**popularity** | **Float64** |  | [optional] [default to 0]
+**profile_path** | **String** |  | [optional] [default to nothing]
+
+
+[[Back to Model list]](../README.md#models) [[Back to API list]](../README.md#api-endpoints) [[Back to README]](../README.md)
+
+
