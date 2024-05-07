@@ -1,5 +1,5 @@
 using Test
-using TMDB
+using TheMovieDB
 
 @testset "KEY" begin
 	api = init_api()

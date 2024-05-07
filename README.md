@@ -1,4 +1,4 @@
-# Julia API client for TMDB
+# Julia API client for TheMovieDB
 
 Julia client for [themoviedb](https://www.themoviedb.org/). 
 
@@ -13,6 +13,7 @@ Before calling any interface, you need to initialize the TMDB API with `init_api
 For example, get a list of movies that are currently in theatres:
 
 ``` julia-repl
+julia> using TheMovieDB
 julia> api = init_api()
 julia> first(movie_now_playing_list(api))
 {

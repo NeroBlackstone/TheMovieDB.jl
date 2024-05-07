@@ -1,4 +1,4 @@
-name = "TMDB"
+name = "TheMovieDB"
 uuid = "82d1dbe1-805e-4225-b33e-b4fa63e6e659"
 authors = ["NeroBlackstone <gf7600gs@gmail.com>"]
 version = "0.1.0"

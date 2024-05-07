@@ -1,4 +1,4 @@
-module TMDB
+module TheMovieDB
 
 include("APIClient.jl")
 
