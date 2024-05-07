@@ -14,7 +14,36 @@ For example, get a list of movies that are currently in theatres:
 
 ``` julia-repl
 julia> api = init_api()
-julia> movie_now_playing_list(api)
+julia> first(movie_now_playing_list(api))
+{
+  "dates": {
+    "maximum": "2024-05-08",
+    "minimum": "2024-03-27"
+  },
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/qrGtVFxaD8c7et0jUtaYhyTzzPg.jpg",
+      "genre_ids": [
+        28,
+        878,
+        12
+      ],
+      "id": 823464,
+      "original_language": "en",
+      "original_title": "Godzilla x Kong: The New Empire",
+      "overview": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence – and our own.",
+      "popularity": 1773.662,
+      "poster_path": "/1DTP1Ph4uzNO6ofRUm7eAimWoKD.jpg",
+      "release_date": "2024-03-27",
+      "title": "Godzilla x Kong: The New Empire",
+      "video": false,
+      "vote_average": 6.462,
+      "vote_count": 956
+    }...
+  ]
+}
 ```
 
 ## Overview
